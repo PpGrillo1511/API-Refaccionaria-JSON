@@ -11,7 +11,8 @@ const carPartSchema = new Schema({
     price: Number,
     condition: String,
     stock: Number,
-    status: Number
+    status: Number,
+    image: String // Agregamos un campo para la URL de la imagen del producto
 }, {
     versionKey: false,
     timestamps: true
